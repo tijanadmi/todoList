@@ -7,8 +7,8 @@ const mongoose = require('mongoose');
 const _ = require("lodash");
 
 mongoose.set('strictQuery', false);
-//mongoose.connect("mongodb://localhost:27017/todolistDB");
-mongoose.connect("mongodb+srv://tijanadmi:Avioni1808@cluster0.yke7whx.mongodb.net/todolistDB");
+mongoose.connect("mongodb://localhost:27017/todolistDB");
+
 
 const itemsSchema=  {
     name: String,
